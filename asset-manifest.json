@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d082f22c.chunk.css",
+    "main.js": "/static/js/main.cabaaa34.chunk.js",
+    "main.js.map": "/static/js/main.cabaaa34.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.665fc9da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.665fc9da.js.map",
+    "static/css/2.1af7a3c5.chunk.css": "/static/css/2.1af7a3c5.chunk.css",
+    "static/js/2.10cfd684.chunk.js": "/static/js/2.10cfd684.chunk.js",
+    "static/js/2.10cfd684.chunk.js.map": "/static/js/2.10cfd684.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e789e6c353bc9473f74c2534714610cf.js": "/precache-manifest.e789e6c353bc9473f74c2534714610cf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1af7a3c5.chunk.css.map": "/static/css/2.1af7a3c5.chunk.css.map",
+    "static/css/main.d082f22c.chunk.css.map": "/static/css/main.d082f22c.chunk.css.map",
+    "static/js/2.10cfd684.chunk.js.LICENSE": "/static/js/2.10cfd684.chunk.js.LICENSE",
+    "static/media/NN_LOGO.png": "/static/media/NN_LOGO.1e849796.png",
+    "static/media/PIC3.jpg": "/static/media/PIC3.ea66bf82.jpg",
+    "static/media/dribbble-icon-dark-gray.png": "/static/media/dribbble-icon-dark-gray.4d0639a7.png",
+    "static/media/github-icon-dark-gray.png": "/static/media/github-icon-dark-gray.e26d94c9.png",
+    "static/media/linkedin-icon-dark-gray.png": "/static/media/linkedin-icon-dark-gray.2a632834.png",
+    "static/media/menu-bar.86595150.svg": "/static/media/menu-bar.86595150.svg",
+    "static/media/portfolio.mp4": "/static/media/portfolio.f46146e4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.665fc9da.js",
+    "static/css/2.1af7a3c5.chunk.css",
+    "static/js/2.10cfd684.chunk.js",
+    "static/css/main.d082f22c.chunk.css",
+    "static/js/main.cabaaa34.chunk.js"
+  ]
+}
