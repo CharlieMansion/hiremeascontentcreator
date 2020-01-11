@@ -1,0 +1,162 @@
+
+.nav {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:20vw;
+    font-family: Roboto, sans-serif;
+    font-size:2rem;
+    padding-bottom:20vh;
+    padding-left:8vw;
+}
+
+#nav-sub {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+
+
+.menu-item {
+    display:flex;
+    justify-content: flex-start;
+}
+.menu-text {
+    color:#252525;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform:uppercase;
+    font-size: 1.2vw;
+    letter-spacing:15px;
+    text-align:left;
+    line-height: 150%;
+    text-decoration: none;
+
+    &:hover {
+        color:#f1f1f1;
+        text-shadow:-1px 0 #252525, 0 1px #252525, 1px 0 #252525, 0 -1px #252525;
+    }
+}
+
+
+
+.socials-footer {
+    margin-top:2vw;
+    padding-top:5vh;
+    align-self:center
+}
+.footer-text {
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:3vh;
+    margin-block-end:1vh;
+    letter-spacing:2px;
+}
+
+.right-stuff {
+    height:100vh;
+    width:35vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    background-color:#f1f1f1;
+
+}
+
+.socials-icon {
+    height:3vh;
+    padding:1vh
+}
+
+.socials-icons {
+    display:flex;
+    justify-content:center;
+}
+
+@media screen and (min-width: 1024px) {
+    .hamburger-menu {
+      display:none;
+    }
+
+    .menu-bar {
+      display:none;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .right-stuff {
+        display: none;
+        width:60vw;
+    }
+
+
+    .menu-text {
+        font-size:4vw;
+        color: white;
+        letter-spacing:8px;
+    }
+
+    .come-on-in {
+        position: fixed;
+        left:100vw;;
+        top: 10vh;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        background-color: #252525;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .come-on-out {
+        position: fixed;
+        left:100vw;;
+        top: 10vh;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        background-color: #252525;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+.hamburger-menu {
+    position:fixed;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:3vh;
+    z-index:100;
+    left:100vw;
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+
+
+}
+
+.menu-item-mobile {
+    text-align:center;
+    padding:3vw;
+}
+
+
+
+.menu-bar {
+  position:fixed;
+  width: 30px;
+  height:30px;
+  z-index:100;
+  left:80vw;
+  top:3vh;
+  
+
+}
+

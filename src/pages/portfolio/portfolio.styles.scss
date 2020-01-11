@@ -1,0 +1,126 @@
+.container {
+    display:flex;
+    width:100%;
+    height:100%;
+    justify-content:center;
+}
+
+.portfolio-sup-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:50vw;
+    height:100vh;
+}
+
+.portfolio-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50vw;
+    height:70vh;
+}
+
+.portfolio {
+    overflow-y:scroll;
+    height:60vh;
+    font-family:'Roboto';
+    font-size:1.25vw;
+    width:40vw;
+    letter-spacing: 1px;
+    text-align:left;
+    padding-right:5vw;
+    padding-left:2vw;
+
+}
+
+.dribbble {
+    padding-left:10vw;
+    padding-top:3vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio {
+        padding:0;
+        width:70vw;
+        font-size:4vw;
+        height:70vh;
+       
+    }
+
+    .portfolio-container {
+        width:90vw;
+    }
+
+    .dribbble {
+        width:30vw;
+        padding:0;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.nobreak {
+    white-space: nowrap;
+}
+
+.pf-arrow {
+    transform: translatey(0px);
+    position:relative;
+    right:2vw;
+    top:2vw;
+    animation: pf-float 1.5s ease-in-out infinite;
+    width:3vw;
+    height:3vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio {
+        position:relative;
+        padding:0;
+        width:80vw;
+        font-size:4vw;
+        height:70vh;
+        top:2vh;
+    }
+
+    .portfolio-container {
+        width:90vw;
+    }
+
+    .pf-arrow {
+        width:10vw;
+        height:10vw;
+        top:8vh;
+    }
+}
+
+@keyframes pf-float {
+	0% {
+		box-shadow: 0 px 0px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 0px 0px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 0px 0px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.2s, opacity 0.2s linear;
+  }

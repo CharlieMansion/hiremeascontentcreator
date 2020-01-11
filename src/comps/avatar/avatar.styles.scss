@@ -1,0 +1,15 @@
+.avatar {
+    height:54vh;
+    width:37vh;
+    z-index:4;
+    position: relative;
+    left:10vw;
+    top:22vh;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .avatar {
+        display:none;
+    }
+}

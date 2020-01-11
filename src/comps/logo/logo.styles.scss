@@ -1,0 +1,26 @@
+
+
+.logo {
+    height:3vh;
+    padding:50px;
+}
+
+.logo-container {
+    
+    height:100vh;
+    position: relative;
+
+    z-index:100;
+   
+}
+
+@media screen and (max-width: 1024px) {
+
+.logo-container {
+    width:0vw;
+}
+
+.logo {
+    padding:25px;
+}
+}
