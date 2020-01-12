@@ -16,7 +16,9 @@ class Home extends React.Component {
         super(props, context)
 
         this.state = {
-            isButtonClicked : false
+            isButtonClicked : false,
+            width:0,
+            height:0
         }
 
         this.toggleFullscreen = this.toggleFullscreen.bind(this);
@@ -41,14 +43,27 @@ class Home extends React.Component {
 
             if (!/Mobi/.test(navigator.userAgent)) {
             this.toggleFullscreen()
+            } else if (!/Mobi/.test(navigator.userAgent) && this.state.width < 1024) {
+                this.play()
+                this.toggleFullscreen()
             }
         }
 
-       
+        componentDidMount() {
+            this.updateWindowDimensions();
+            window.addEventListener('resize', this.updateWindowDimensions);
+          }
+
+          componentWillUnmount() {
+            window.removeEventListener('resize', this.updateWindowDimensions);
+          }
+          updateWindowDimensions = () =>  {
+            this.setState({ width: window.innerWidth, height: window.innerHeight });
+          }
+          
         
 
     render() {
-      
         return (
             <div className="container">
                 <div className='mobile-msg'>
