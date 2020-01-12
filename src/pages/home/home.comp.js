@@ -43,7 +43,7 @@ class Home extends React.Component {
 
             if (!/Mobi/.test(navigator.userAgent)) {
             this.player.toggleFullscreen()
-            } else if (!/Mobi/.test(navigator.userAgent) && this.state.height <= 1024) {
+            } else if (!/Mobi/.test(navigator.userAgent) && this.state.width <= 1024) {
                 this.play()
                 this.player.toggleFullscreen()
             }
