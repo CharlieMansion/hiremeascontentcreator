@@ -41,8 +41,7 @@ class Home extends React.Component {
                 isButtonClicked:!prevState.isButtonClicked
             }))
 
-            if (!/Mobi/.test(navigator.userAgent)) {
-            this.player.play()    
+            if (!/Mobi/.test(navigator.userAgent)) {   
             this.player.toggleFullscreen()
             }
         }
