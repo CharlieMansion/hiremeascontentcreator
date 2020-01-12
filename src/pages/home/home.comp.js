@@ -42,10 +42,8 @@ class Home extends React.Component {
             }))
 
             if (!/Mobi/.test(navigator.userAgent)) {
+            this.player.play()    
             this.player.toggleFullscreen()
-            } else if (!/Mobi/.test(navigator.userAgent) && this.state.width <= 1024) {
-                this.play()
-                this.player.toggleFullscreen()
             }
         }
 
@@ -81,7 +79,7 @@ class Home extends React.Component {
                 fluid={false} 
                 width={0}
                 muted
-               autoPlay
+                autoPlay
                 src={portfolio}>
                 <LoadingSpinner />
                 <ControlBar disableCompletely={true}/>
