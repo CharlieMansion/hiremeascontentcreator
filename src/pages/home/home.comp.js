@@ -57,7 +57,6 @@ class Home extends React.Component {
                 Discover my bio in video!</h1>
                 <button className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
 
-
                 <div id="video-mobile">
 
                 { this.state.isButtonClicked ? (
@@ -89,8 +88,8 @@ class Home extends React.Component {
                     <ControlBar disableCompletely={true}/>
                     </Player>
                 </div>) : null }
-                <Animated animationIn="fadeInLeft" isVisible={true} animationInDuration={1000} animationOut="zoomOutDown"> 
-                <Avatar/>
+                <Animated className="avatar-div" animationIn="fadeInLeft" isVisible={true} animationInDuration={1000} animationOut="zoomOutDown"> 
+                <Avatar />
                 </Animated>
             </div>
         )

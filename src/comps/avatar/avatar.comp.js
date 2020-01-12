@@ -2,7 +2,8 @@ import React from 'react';
 //import avatar2 from './PIC1.png';
 //import avatar4 from './PIC2.png';
 //import avatar3 from './PIC3.jpg';
-import avatar from './PIC4.jpg';
+//import avatar4 from './PIC4.jpg';
+import avatar from './mobile-pic.png';
 import './avatar.styles.scss';
 
 class Avatar extends React.Component {

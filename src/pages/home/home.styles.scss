@@ -42,12 +42,18 @@
 }
 
 .mobile-msg {
-    padding-bottom: 10vh;
+    position: relative;
+    left:23vw;
+    top:20vh;
     width:70vw;
     font-family:'Roboto';
     font-size:1.5vh;
     letter-spacing: 1px;
     text-align:center;
+}
+
+.mobile-pic {
+    height:10vh;
 }
 
 .ghost-button {
@@ -77,3 +83,52 @@
     position: relative;
     right:10000px;
   }
+
+  @media screen and (max-width: 1024px) {
+    .avatar-div {
+        position:relative;
+        bottom:40vh;
+        right:44vw;
+    }
+
+    .mobile-msg {
+        position:relative;
+        top:20vh;
+        left:15vw;
+    }
+}
+
+
+
+  @media screen and (max-width: 767px) {
+    .avatar-div {
+        position:relative;
+        bottom:40vh;
+        right:35vw;
+    }
+
+    .mobile-msg {
+        position:relative;
+        top:20vh;
+        left:23vw;
+    }
+}
+
+@media screen and (max-height:640px) {
+    .mobile-msg {
+        position:relative;
+        top:20vh;
+        left:21.5vw;
+    }
+
+    .avatar-div {
+        position:relative;
+        bottom:40vh;
+        right:40vw;
+    }
+    
+}
+
+
+
+

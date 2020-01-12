@@ -1,6 +1,6 @@
 .avatar {
     height:54vh;
-    width:37vh;
+    width:40.5vh;
     z-index:4;
     position: relative;
     left:10vw;
@@ -8,8 +8,29 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+
+
+
+@media screen and (max-height: 1024px) {
     .avatar {
-        display:none;
+        height:300px;
+        width:225px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        height:250px;
+        width:187px;
+    }
+
+}
+
+
+@media screen and (max-height: 640px) {
+    .avatar {
+        height:200px;
+        width:150px;
     }
 }
+
