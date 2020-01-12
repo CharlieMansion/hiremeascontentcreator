@@ -10,7 +10,7 @@ const Logo = () => {
         
         <div className="logo-container">    
             <Animated animationIn="fadeInDown" isVisible={true} animationInDuration={1000} animationOut="zoomOutDown"> 
-                <Link to="/" className="menu-text">  
+                <Link to="/" className="menu-text" >  
                     <img className="logo" alt="Logo" src={logo}/>
                 </Link> 
              </Animated>
