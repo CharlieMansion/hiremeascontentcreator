@@ -46,7 +46,7 @@ class Home extends React.Component {
             }
 
             const btn = document.getElementById('btn-vid')
-            btn.value='Loading...'
+            btn.innerText='Loading...'
         }
 
         componentDidMount() {
