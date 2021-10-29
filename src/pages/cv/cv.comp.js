@@ -37,24 +37,21 @@ this.setState((prevState) => {
                     <br/>
                     <div>
                     <h3>Professional Experience</h3>
-                      <hr/>
-                    <p className="date">Sep. 2015 – today</p>
+                      <hr/> 
+                   
+                    <p className="date">May 2020 – today</p>
+                   <p className="title">Freelance digital content creator & web developer/designer</p>
+                  
+                    <p className="date">May 2020 – today</p>
+                   <p className="title">Graphic designer & social media expert, European Commission</p>
+               
+                  <p className="date">Sep. 2015 – May 2020 </p>
+                    <p className="title">Digital Content Creator & Social Media Manager at [PIAS] Belgium </p>
 
-                    <p>Digital Content Creator & Graphic Designer at [PIAS] Belgium 
-                    <br/>
-                    <br/>
-                    <p className="date">Jan. 2016 – today</p>
-                    Community Manager & Record Store Manager at [CHEZ PIAS] & [PIAS] Belgium
-                    <br/>
-                    <br/>
-                    <p className="date">Dec. 2014 – Dec. 2016</p>
-                    Writer / Video Editor / Photographer at La Vague Parallèle
-                    <br/>
-                    <br/>
-                    <p className="date">Mar. 2015 – Jul. 2015</p>
-                    Promo Intern at [PIAS] Belgium 
-                    <br/>
-                    </p>
+                    <p className="date">Déc. 2014 – Jan. 2018 </p>
+                    <p className="title">Writer, photographer, video producer at [PIAS] Belgium </p>
+                
+                    
                   {/* <Animated animationIn="fadeInDown" isVisible={true} animationInDuration={1000} animationOut="zoomOutDown">
                         <img className="dribbble" alt="dribbble logo" width="150" src={dribbble}></img>
                        </Animated>
@@ -64,27 +61,23 @@ this.setState((prevState) => {
                     <h3>Education</h3>
                       <hr/> 
                       <p className="date">2010 – 2015</p>
-
-                      <p>Master Degree in Communication & Public Relations
-                      <br/>
-                      <br/>
+                      <p className="title">Master Degree in Communication & Public Relations</p>
                       <p className="date">2005 – 2010</p>
-                      Secondary School Diploma with a 6 years English immersion program 
-                      <br/>
-                      </p>
+                      <p className="title">Secondary School Diploma with a 6 years English immersion program </p>
+                      
                       <br/>
                     <h3>Other Certifications</h3>
                       <hr/> 
                       <p>
                             <ul>
                                 <li>
-                                Cambridge First Certificate in English Diploma - British Council
+                                Cambridge 1st Certificate in English  - British Council
                                 </li>  
                                 <li>
                                 Complete React Developer Diploma - Udemy
                                 </li> 
                                 <li>
-                                Complete Roadmap to Senior Web Developer Diploma - Udemy
+                                Complete Senior Web Developer Diploma - Udemy
                                 </li>   
                                 <li>
                                 Advanced Javascript Concepts - Udemy
@@ -150,9 +143,11 @@ this.setState((prevState) => {
                 </div>)}
                 </BottomScrollListener>
             </div>
-           
-            <img className={`${this.state.isScrolled ? 'hidden' : null } pf-arrow`} alt="arrow" src={arrow}/> 
-            
+            <div className={`${this.state.isScrolled ? 'hidden' : null } arrow-container`}>
+          
+            <img  className='pf-arrow' alt="arrow" src={arrow}/> 
+             <p className='scroll-for-more'>Scroll for more</p>
+            </div>
         </div>
         </div>
     )

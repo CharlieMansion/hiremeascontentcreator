@@ -100,8 +100,11 @@ this.setState((prevState) => {
                 </BottomScrollListener>
             </div>
            
-            <img className={`${this.state.isScrolled ? 'hidden' : null } pf-arrow`} alt="arrow" src={arrow}/> 
-            
+             <div className={`${this.state.isScrolled ? 'hidden' : null } arrow-container`}>
+          
+            <img  className='pf-arrow' alt="arrow" src={arrow}/> 
+             <p className='scroll-for-more'>Scroll for more</p>
+            </div>
         </div>
         </div>
     )
