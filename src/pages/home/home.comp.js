@@ -72,7 +72,7 @@ class Home extends React.Component {
                 Discover my bio in video!</h1>
                 <button id='btn-vid' className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
 
-                <div style={{display:none}}id="video-mobile">
+                <div style={{display:'none'}}id="video-mobile">
 
                 { this.state.isButtonClicked ? (
                 <Player 
