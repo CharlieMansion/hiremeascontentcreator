@@ -44,6 +44,9 @@ class Home extends React.Component {
             if (!/Mobi/.test(navigator.userAgent)) {   
             this.player.toggleFullscreen()
             }
+
+            const btn = document.getElementById('btn-vid')
+            btn.value='Loading...'
         }
 
         componentDidMount() {
@@ -67,7 +70,7 @@ class Home extends React.Component {
                 <h1>Looking for a content creator? 
                 Your search is over.<br/><br/>
                 Discover my bio in video!</h1>
-                <button className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
+                <button id='btn-vid' className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
 
                 <div id="video-mobile">
 
