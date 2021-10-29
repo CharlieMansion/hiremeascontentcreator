@@ -25,7 +25,6 @@
 }
 
 
-
 @media screen and (max-width: 1024px) {
     
     .img-container {
@@ -43,17 +42,10 @@
 
 .mobile-msg {
     position: relative;
-    left:23vw;
-    top:10vh;
-    width:70vw;
     font-family:'Roboto';
     font-size:1.5vh;
     letter-spacing: 0px;
     text-align:center;
-}
-
-.mobile-pic {
-    height:10vh;
 }
 
 .ghost-button {
@@ -79,49 +71,18 @@
     color: #252525;
   }
 
-
-
   @media screen and (max-width: 1024px) {
-    .avatar-div {
-        position:relative;
-        bottom:40vh;
-        right:44vw;
+    .container {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    justify-content:center;
     }
 
     .mobile-msg {
-        position:relative;
-        top:10vh;
-        left:12vw;
+    width:80vw;
     }
 }
 
 
 
-  @media screen and (max-width: 767px) {
-    .avatar-div {
-        position:relative;
-        bottom:40vh;
-        right:35vw;
-    }
-
-    .mobile-msg {
-        position:relative;
-        top:19vh;
-        left:23vw;
-    }
-}
-
-@media screen and (max-height:640px) {
-    .mobile-msg {
-        position:relative;
-        top:20vh;
-        left:21.5vw;
-    }
-
-    .avatar-div {
-        position:relative;
-        bottom:40vh;
-        right:40vw;
-    }
-    
-}

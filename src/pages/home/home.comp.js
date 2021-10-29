@@ -68,7 +68,7 @@ class Home extends React.Component {
             <div className="container">
                 <div className='mobile-msg'>
                 <h1>Looking for a content creator? 
-                Your search is over.<br/><br/>
+                Your search is over.
                 Discover my bio in video!</h1>
                 <button id='btn-vid' className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
 

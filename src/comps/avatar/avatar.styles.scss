@@ -1,36 +1,38 @@
+.avatar-container {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    height:100%;
+    width:30vw;
+}
+
+
 .avatar {
-    height:54vh;
-    width:40.5vh;
-    z-index:4;
-    position: relative;
-    left:10vw;
-    top:22vh;
-    
+padding-bottom:10vh;
+margin-right:-10vw;
+width:30vw;
+max-width:400px;
 }
 
+ @media screen and (max-width: 1024px) {
+ .avatar-container {
+ width:100%;
+ }
+
+ .avatar {
+ margin-right:-2vw;;
+ margin-top:5vh;
+ padding-bottom:2vh;
+ width:50vw;
+ }
+ }
 
 
+ @media screen and (max-width: 480px) {
 
-@media screen and (max-width: 1024px) {
-    .avatar {
-        height:300px;
-        width:225px;
-    }
-  }
+ .avatar {
+    min-width:80vw;
+ }
+ }
 
-@media screen and (max-width: 768px) {
-    .avatar {
-        height:250px;
-        width:187px;
-    }
-
-}
-
-
-@media screen and (max-height: 640px) {
-    .avatar {
-        height:200px;
-        width:150px;
-    }
-}
 

@@ -23,7 +23,7 @@ class Avatar extends React.Component {
 
         render() {
             return (
-                <div>
+                <div className='avatar-container'>
                     <img className="avatar" alt="Avatar" src={this.state.avatar} onMouseEnter={this.toggleAvatar} onMouseLeave={this.toggleAvatarAgain}/>
                 </div>
             )

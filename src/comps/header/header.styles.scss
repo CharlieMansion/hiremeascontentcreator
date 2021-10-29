@@ -28,7 +28,7 @@
     font-style: normal;
     text-transform:uppercase;
     font-size: 1.2vw;
-    letter-spacing:15px;
+    letter-spacing:8px;
     text-align:left;
     line-height: 150%;
     text-decoration: none;
@@ -59,7 +59,7 @@
 
 .right-stuff {
     height:100vh;
-    width:35vw;
+    width:30vw;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -90,15 +90,15 @@
 
 @media screen and (max-width: 1025px) {
     .right-stuff {
-        display: none;
-        width:60vw;
+    display:none;
+    width:60vw;
     }
 
 
     .menu-text {
         font-size:4vw;
         color: white;
-        letter-spacing:8px;
+        letter-spacing:4px;
     }
 
     .come-on-in {
@@ -160,3 +160,9 @@
 
 }
 
+
+@media screen and (min-height: 1025px) {
+.nav { 
+
+    }
+    }
