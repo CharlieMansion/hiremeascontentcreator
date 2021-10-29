@@ -59,6 +59,7 @@
 
 .right-stuff {
     height:100vh;
+    min-height:100%;
     width:30vw;
     display:flex;
     flex-direction:column;
@@ -161,8 +162,4 @@
 }
 
 
-@media screen and (min-height: 1025px) {
-.nav { 
 
-    }
-    }
