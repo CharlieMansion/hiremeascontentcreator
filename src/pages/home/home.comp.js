@@ -80,7 +80,7 @@ class Home extends React.Component {
                 ref={player => { this.player = player;}}
                 fluid={false} 
                 width={0}
-                muted
+                
                 autoPlay
                 src={portfolio}>
                 <LoadingSpinner />
@@ -96,7 +96,7 @@ class Home extends React.Component {
                     className="test"
                     fluid={false}
                     autoPlay={true}
-                    muted
+                   muted
                     playsinline
                     src={portfolio}>
                     <LoadingSpinner />

@@ -15,6 +15,7 @@ import Logo from './comps/logo/logo.comp';
 function App() {
   return (
     <div className="App">
+    <div className='white-hdr'></div>
     <Logo className='logo'/> 
       <Switch>
         <Route exact path='/' component={Home}/>
@@ -23,7 +24,7 @@ function App() {
         <Route path="/contact" component={Contact}/>
         <Route path="/portfolio" component={Portfolio}/>
       </Switch>
-      <Header/>
+      <Header className='headr'/>
     </div>
   );
 }

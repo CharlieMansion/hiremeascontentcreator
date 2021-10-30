@@ -1,15 +1,15 @@
 
 
 .logo {
-    height:3vh;
-    padding:50px;
+    height:4vh;
+    padding:40px;
+    max-height:30px;
 }
 
 .logo-container {
-    
-    height:100vh;
+    background-color:white!important;
+    height:100%;
     position: relative;
-
     z-index:100;
    
 }
@@ -17,10 +17,24 @@
 @media screen and (max-width: 1024px) {
 
 .logo-container {
-    width:0vw;
+    
+    height:5vh;
+    min-height:80px;
+    padding:0;
+    background-color:white;
 }
 
 .logo {
-    padding:25px;
+	
+	height:20vh;
+	padding:25px;
 }
+
+@media screen and (max-width: 480px) {
+.logo {
+	height:10vh;
+	 
+}
+}
+
 }
