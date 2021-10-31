@@ -27,7 +27,20 @@
  background-color: white;
  z-index: 2;
 }
+
 }
 .headr {
   min-height:100%;
+}
+
+@media screen and (max-height: 768px) {
+.white-hdr {
+  display:block;
+ position:fixed;
+ height:65px;
+ width:100vw;
+ background-color: white;
+ z-index: 2;
+}
+
 }
