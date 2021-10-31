@@ -36,21 +36,13 @@ this.setState((prevState) => {
                     Check it here.</h2>
                     <br/>
                     <div>
-                    <h3>Graphic Design & Animation Visuals</h3>
+                    <h3>Digital content creation, graphic design & video animations</h3>
                       <hr/> 
                     <p>For a showcase overview of a few animated visuals and designs I created, I invite you to check out my Dribbble portfolio <a href="http://niconol.dribbble.com/" rel="noopener noreferrer" target="_blank">here</a>. </p> 
-                  {/* <Animated animationIn="fadeInDown" isVisible={true} animationInDuration={1000} animationOut="zoomOutDown">
-                        <img className="dribbble" alt="dribbble logo" width="150" src={dribbble}></img>
-                       </Animated>
-
-                    */}
-                    <br/>
-                    <h3>Community Management & Socials Content Creation</h3>
-                      <hr/> 
-                    <p>I notably take care of the content creation for the [PIAS] Belgium & [CHEZ PIAS] socials, as well as developing their new visual rebranding and graphic chart, visible in some recent concepts & stories.
+                    <p>For five years, I notably took care of the content creation for the [PIAS] Belgium & [CHEZ PIAS] socials, including video animations production, graphic design, copies, as well as developing their new visual rebranding and graphic chart, visible in some recent concepts & stories.
                     <br/>
                     <br/>I also contribute in developing concepts for posts, write up captions and manage the posting, setting up the agendas, and interacting with their respective audiences. 
-                    You can check out their Instagram profiles and Facebook pages here : 
+                    You can check out the Instagram profiles and Facebook pages here : 
                     <br/>
                     <br/>
                     [PIAS] Belgium :
@@ -84,7 +76,7 @@ this.setState((prevState) => {
                     <br/>
                     <h3>Web Development</h3>
                       <hr/> 
-                      <p>Aside from developing this whole website from Scratch with React.js on my own, I've also developed <span className="nobreak">[CHEZ PIAS]'s</span> landing page website that you can check <a rel="noopener noreferrer" target="_blank" href="http://chezpias.com/">here</a>.
+                      <p>Aside from developing this whole website from Scratch with React.js on my own, I've also developed a series of websites for various clients, including 62TV Records' e-commerce store that you can check <a href="https://62tvrecords-webstore.com">here</a> as an example.
                       A load of code for other stuff is also present on my <a rel="noopener noreferrer" target="_blank" href="https://github.com/CharlesMansion">Github</a>  account, including a sample face recognition app and a full virtual clothing eCommerce app called CRWN Clothing.
                       </p>
                       <br/>
