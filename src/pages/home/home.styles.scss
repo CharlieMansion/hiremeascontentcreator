@@ -25,6 +25,9 @@
     background-color:white!important;
 }
 
+.note {
+    display:none;
+}
 
 @media screen and (max-width: 1024px) {
     
@@ -83,6 +86,11 @@
 
     .mobile-msg {
     width:60vw;
+    }
+
+    .note {
+        display:block;
+        font-size:0.7em;
     }
 }
 

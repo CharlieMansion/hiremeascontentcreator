@@ -71,7 +71,7 @@ class Home extends React.Component {
                 Your search is over.
                 Discover my bio in video!</h1>
                 <button id='btn-vid' className="ghost-button" onClick={this.buttonAction}>Tap to see</button>
-
+                <p className='note'>Can't see the video? It can happen you're viewing this iOS 15, this is a known bug. You can also check it out <a href="https://youtu.be/2GVNWcOYvTY">here</a> via Youtube!</p>
                 <div style={{display:'none'}}id="video-mobile">
 
                 { this.state.isButtonClicked ? (
