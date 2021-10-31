@@ -33,13 +33,13 @@ handleContainerOnBottom = () => {
                     <br/>
                     Look no further.</h2>
                     <br/>
-                        Hello, my name is Nico. I'm a graphic designer & web developer based in Brussels.
+                        Hello, my name is Nico. I'm a digital creative & web developer based in Brussels.
                         <br/> 
                         <br/>
-                        My main interests are music 🎹, graphic design & visual art ✏️ and new media, tech & web development 💻.
+                        My main interests are music 🎹, graphic design, video & visual art ✏️ and new media, tech & web development 💻.
                         <br/>
                         <br/>
-                        I've already been working about 4 years in the music industry as digital content creator, community manager and record shop manager.
+                        I've already been working about 6 years in the music industry as digital content creator, community manager and record shop manager.
                         <br/>
                         <br/>During that time, I created tons of projects. Visuals, stories, banners, videos, artworks, websites, newsletters, ads, headers, graphic PR's... all of this for hundreds of very different projects. I also took care of several online communities from various brands, and sold many records.
                         <br/>

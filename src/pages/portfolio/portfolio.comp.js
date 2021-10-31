@@ -38,10 +38,10 @@ this.setState((prevState) => {
                     <div>
                     <h3>Digital content creation, graphic design & video animations</h3>
                       <hr/> 
-                    <p>For a showcase overview of a few animated visuals and designs I created, I invite you to check out my Dribbble portfolio <a href="http://niconol.dribbble.com/" rel="noopener noreferrer" target="_blank">here</a>. </p> 
+                    <p>For a showcase overview of a few animated visuals and designs I created as a freelancer and beyond, I invite you to check out my Dribbble portfolio <a href="http://niconol.dribbble.com/" rel="noopener noreferrer" target="_blank">here</a>. </p> 
                     <p>For five years, I notably took care of the content creation for the [PIAS] Belgium & [CHEZ PIAS] socials, including video animations production, graphic design, copies, as well as developing their new visual rebranding and graphic chart, visible in some recent concepts & stories.
                     <br/>
-                    <br/>I also contribute in developing concepts for posts, write up captions and manage the posting, setting up the agendas, and interacting with their respective audiences. 
+                    <br/>I also contributed in developing concepts for posts, writing up captions and managing the posting, setting up the agendas, and interacting with their respective audiences. 
                     You can check out the Instagram profiles and Facebook pages here : 
                     <br/>
                     <br/>
