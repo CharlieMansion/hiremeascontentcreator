@@ -36,10 +36,10 @@ handleContainerOnBottom = () => {
                         Hello, my name is Nico. I'm a digital creative & web developer based in Brussels.
                         <br/> 
                         <br/>
-                        My main interests are music 🎹, graphic design, video & visual art ✏️ and new media, tech & web development 💻.
+                        My main interests are graphic design, video & visual art ✏️, music & culture 🎹,and new media, tech & web development 💻.
                         <br/>
                         <br/>
-                        I've already been working about 6 years in the music industry as digital content creator, community manager and record shop manager.
+                        I've already been working about 6 years in the music industry as digital content creator, social media expert, and web developer/designer.
                         <br/>
                         <br/>During that time, I created tons of projects. Visuals, stories, banners, videos, artworks, websites, newsletters, ads, headers, graphic PR's... all of this for hundreds of very different projects. I also took care of several online communities from various brands, and sold many records.
                         <br/>

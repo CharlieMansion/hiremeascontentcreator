@@ -91,6 +91,7 @@ class Home extends React.Component {
                 { !/Mobi/.test(navigator.userAgent) ? (
                 <div className="img-container" onDoubleClick={this.toggleFullscreen}>
                     <Player 
+                    className='img-container-actual-video'
                     loop={true}
                     ref={player => { this.player = player;}}
                     className="test"
