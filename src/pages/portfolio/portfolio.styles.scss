@@ -35,6 +35,10 @@
 
 }
 
+.portfolio::-webkit-scrollbar {
+    display: none;
+}
+
 .dribbble {
     padding-left:10vw;
     padding-top:3vh;

@@ -34,6 +34,10 @@
 
 }
 
+.bio::-webkit-scrollbar {
+    display: none;
+}
+
 .arrow {
     transform: translatey(0px);
     position:relative;

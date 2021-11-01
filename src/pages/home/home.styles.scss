@@ -17,6 +17,15 @@
     background-color:white;
 }
 
+.img-container:focus {
+    outline: none;
+}
+
+.video-react-video:focus {
+    outline: none;
+}
+ :focus { outline: none; }
+
 .artwork {
     height:100vh;
     background-color:white;

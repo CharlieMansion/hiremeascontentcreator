@@ -26,6 +26,10 @@
       
 }
 
+.contact-sup::-webkit-scrollbar {
+    display: none;
+}
+
 .contact {
     font-family:'Roboto';
     font-size:1.25vw;
