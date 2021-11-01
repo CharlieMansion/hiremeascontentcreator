@@ -134,6 +134,9 @@ this.setState((prevState) => {
                           Travel
                           </li> 
                           <li>
+                          Japan
+                          </li> 
+                          <li>
                           Avid Everyday Learner
                           </li> 
 

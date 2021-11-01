@@ -7,6 +7,8 @@
 
 }
 
+
+
 .img-container {
     display:flex;
     align-items: center;
@@ -45,6 +47,7 @@
 }
 
 .mobile-msg {
+
     position: relative;
     font-family:'Roboto';
     font-size:1.5vh;
@@ -85,12 +88,22 @@
 
     .mobile-msg {
     width:60vw;
+    display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
     }
 
     .note {
         display:block;
-        font-size:0.8em;
+        font-size:0.9em;
+        margin-top : 15px;
+        width:40vw;
        
+    }
+
+    .first-line {
+    font-size:1.2em
     }
 }
 

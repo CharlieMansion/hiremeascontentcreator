@@ -70,23 +70,74 @@ this.setState((prevState) => {
                     These included visuals for posts, stories, banners, videos, artworks, websites, newsletters, ads, headers, graphic PR's, etc.
                     <br/>
                     <br/>
+                    On my more 'serious' business side, I'm currently a consultant graphic designer/social media expert at the European Commission for Culture, Youth & Education. I look after creating digital content for their social media channels which include things like Erasmus+, Creative Europe, European Youth and the Digital Education Action Plan.
+                    You can check them out here : 
+                    <br/>
+                    <br/>
+                    Erasmus+ :
+                    <br/>
+                    <ul>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/EUErasmusPlusProgramme">Facebook</a> (500k+ followers)
+                    </li>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/EUErasmusPlus">Twitter</a>
+                    </li>
+                    </ul>
+                  
+                    Creative Europe :
+                    <br/>
+                    <ul>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/europe_creative">Twitter</a>
+                    </li>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/CreativeEuropeEU">Facebook</a>
+                    </li>
+                    </ul>
+
+                    European Youth :
+                    <br/>
+                    <ul>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/european_youth_eu/">Instagram</a>
+                    </li>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/EuropeanYouthEU">Facebook</a>
+                    </li>
+
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/EuropeanYouthEU">Twitter</a>
+                    </li>
+                    </ul>
+                  
+                    Digital Education Action Plan :
+                    <br/>
+                    <ul>
+                    <li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/EUDigitalEdu/">Twitter</a>
+                    </li>
+         
+                    </ul>
                     Aside from these, I also entirely take care of the socials and related content creation for a music project I'm part of, called Whatever!. You can check out our 
                     Instagram <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/whateverisaband/?hl=fr">here</a> and our Facebook page <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/whateverisaband/">here</a>.
                     </p>
                     <br/>
-                    <h3>Web Development</h3>
-                      <hr/> 
-                      <p>Aside from developing this whole website from Scratch with React.js on my own, I've also developed a series of websites for various clients, including 62TV Records' e-commerce store that you can check <a href="https://62tvrecords-webstore.com">here</a> as an example.
-                      A load of code for other stuff is also present on my <a rel="noopener noreferrer" target="_blank" href="https://github.com/CharlesMansion">Github</a>  account, including a sample face recognition app and a full virtual clothing eCommerce app called CRWN Clothing.
-                      </p>
-                      <br/>
+                    
                       <h3>Video Production & Editing</h3>
                       <hr/> 
                       <p>I have made an extensive number of video edits apart from the video animations examples present on my Dribbble portfolio. This includes Youtube & Spotify prerolls ads, video clips snippets for a large number of [PIAS] artists.
                       <br/>
                       <br/>
                       I've also entirely produced a few music videos and live sessions for my own band Whatever, which you can find <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCfyVAXXAjXCHXGcrniSml4Q">here</a>.
+                      </p> 
+                      <br/>
+                      <h3>Web Development</h3>
+                      <hr/> 
+                      <p>Aside from developing this whole website from Scratch with React.js on my own, I've also developed a series of websites for various clients, including 62TV Records' e-commerce store that you can check <a href="https://62tvrecords-webstore.com">here</a> as an example.
+                      A load of code for other stuff is also present on my <a rel="noopener noreferrer" target="_blank" href="https://github.com/CharlesMansion">Github</a>  account, including a sample face recognition app and a full virtual clothing eCommerce app called CRWN Clothing.
                       </p>
+                      <br/>
                     </div>
                 </div>)}
                 </BottomScrollListener>
